@@ -46,3 +46,20 @@ A data integrity tool that generates unique SHA-256 digital fingerprints for any
 
 ### Usage
 `python hash_generator.py`
+
+# 🛡️ Hilda's Tech Haven: Security Suite
+
+A modular Python framework for local cybersecurity operations, featuring automated network monitoring, cryptographic auditing, and secure credential generation.
+
+## 🚀 Features
+- **Secure Gatekeeper:** Password-protected CLI with masked input using `getpass`.
+- **Elite Password Generator:** High-entropy credential creator with strength scoring.
+- **DHCP Network Sniffer:** Real-time device discovery and logging using `Scapy`.
+- **Hash Integrity Auditor:** SHA-256 file verification for digital forensics.
+- **Port Scanner:** Automated reconnaissance tool for network mapping.
+
+## 🛠️ Concepts Applied
+- **IAM (Identity & Access Management):** Access control via authentication.
+- **Packet Analysis:** Monitoring OSI Layer 2/Layer 7 traffic.
+- **Digital Forensics:** Establishing an audit trail for network connections.
+- **Automation:** Managing child processes with the `subprocess` module.

@@ -16,9 +16,9 @@ def check_strength(pw):
     # Summing the Booleans (True=1, False=0)
     score = sum([has_upper, has_lower, has_digit, has_spec])
     
-    if length >= 12 and score == 4:
-        return "\033[92m⭐⭐⭐⭐⭐ (Elite)\033[0m"
-    elif length >= 8 and score >= 3:
+    if length >= 12 and score >= 3:
+        return "\033[92m⭐⭐⭐⭐ (Elite)\033[0m"
+    elif length >= 8 and score >= 2:
         return "\033[93m⭐⭐⭐ (Strong)\033[0m"
     else:
         return "\033[91m⭐ (Weak/Basic)\033[0m"
