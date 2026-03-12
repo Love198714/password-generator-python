@@ -47,6 +47,20 @@ A data integrity tool that generates unique SHA-256 digital fingerprints for any
 ### Usage
 `python hash_generator.py`
 
+---
+
+## 👃 DHCP Network Sniffer
+A real-time network monitoring tool that captures DHCP packets to identify new devices connecting to the local network.
+
+### Features
+* **Live Discovery:** Captures MAC addresses, hostnames, and requested IPs.
+* **Audit Logging:** Automatically saves all connection events to `network_audit_log.txt` for forensic review.
+* **Layer Analysis:** Deep packet inspection of Ethernet and DHCP layers using `Scapy`.
+
+### Usage
+*Note: This tool requires Administrator/Root privileges to access network hardware.*
+`python dhcp_listener.py`
+
 # 🛡️ Hilda's Tech Haven: Security Suite
 
 A modular Python framework for local cybersecurity operations, featuring automated network monitoring, cryptographic auditing, and secure credential generation.
