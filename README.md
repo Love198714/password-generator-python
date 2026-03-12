@@ -33,3 +33,16 @@ A network discovery tool that checks for open TCP ports on a target IP address.
 
 ### Usage
 `python port_scanner.py`
+
+---
+
+## 🛡️ Hash Generator
+A data integrity tool that generates unique SHA-256 digital fingerprints for any text input.
+
+### Features
+* **Industry Standard:** Uses the SHA-256 cryptographic algorithm.
+* **Integrity Checking:** Demonstrates how even a minor change alters the entire output.
+* **Clean UI:** Highlights the hash result in terminal green.
+
+### Usage
+`python hash_generator.py`
