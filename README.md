@@ -20,3 +20,16 @@ Run the script using these flags:
 
 ### Example Command
 `python password_generator.py -t 16 -a 5`
+
+---
+
+## 📡 Port Scanner
+A network discovery tool that checks for open TCP ports on a target IP address.
+
+### Features
+* **Range Scanning:** Scan a specific range of ports (e.g., 1-100).
+* **Interactive:** Prompts for Target IP and Port Range.
+* **Color Output:** Uses ANSI codes to highlight open ports.
+
+### Usage
+`python port_scanner.py`
